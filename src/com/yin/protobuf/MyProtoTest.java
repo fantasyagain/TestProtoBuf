@@ -33,5 +33,14 @@ public class MyProtoTest {
        for(PersonProbuf.Person.PhoneNum p:phones){
            System.out.println("phone:"+p.getNumber());
        }
+       PersonProbuf.AddressBook.Builder addbld=PersonProbuf.AddressBook.newBuilder();
+       addbld.addPerson(per1);
+       PersonProbuf.AddressBook addbook=addbld.build();
+       byte[] byteAddBk=addbook.toByteArray();
+
+       PersonProbuf.AddressBook addbook2=PersonProbuf.AddressBook.parseFrom(byteAddBk);
+       for(PersonProbuf.Person p:addbook2.getPersonList()){
+           System.out.println("person from addbook:"+p.getName());
+       }
    }
 }

@@ -1,0 +1,9 @@
+1,两个文件：proto.exe,  protobuf-java-2.4.1.jar
+
+2,建立一个工程TestPb，在下面建立一个proto文件件，用来存放【.proto】文件
+
+3，将proto.exe放在工程下，
+
+4，建立一个msg.proto文件：msg.proto
+
+5，生成 java文件：在proto.exe目录下：protoc  --java_out=../src   proto/msg.proto

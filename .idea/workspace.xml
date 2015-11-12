@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d6ee078-35e6-470c-bc9d-3e71db12e565" name="Default" comment="" />
+    <list default="true" id="9d6ee078-35e6-470c-bc9d-3e71db12e565" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/note" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestProtoBuf/com/yin/protobuf/MyProtoTest.class" afterPath="$PROJECT_DIR$/out/production/TestProtoBuf/com/yin/protobuf/MyProtoTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yin/protobuf/MyProtoTest.java" afterPath="$PROJECT_DIR$/src/com/yin/protobuf/MyProtoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proto/msg.proto" afterPath="$PROJECT_DIR$/proto/msg.proto" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TestProtoBuf.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,20 +34,30 @@
         <entry file="file://$PROJECT_DIR$/proto/msg.proto">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyProtoTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyProtoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yin/protobuf/MyProtoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45192307">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="-22.8">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="note" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/note">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4871795">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/yin/protobuf/PersonProbuf.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1869" column="65" selection-start-line="1869" selection-start-column="65" selection-end-line="1869" selection-end-column="65" />
+              <caret line="3257" column="0" selection-start-line="3257" selection-start-column="0" selection-end-line="3257" selection-end-column="0" />
               <folding>
                 <element signature="e#0#111385#0" expanded="true" />
                 <element signature="e#7460#7662#0" expanded="true" />
@@ -70,6 +87,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -80,6 +100,7 @@
       <list>
         <option value="$PROJECT_DIR$/proto/msg.proto" />
         <option value="$PROJECT_DIR$/src/com/yin/protobuf/MyProtoTest.java" />
+        <option value="$PROJECT_DIR$/src/note" />
       </list>
     </option>
   </component>
@@ -136,6 +157,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TestProtoBuf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestProtoBuf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestProtoBuf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -462,12 +497,12 @@
       <created>1447242723512</created>
       <option name="number" value="Default" />
       <updated>1447242723512</updated>
-      <workItem from="1447242727310" duration="2451000" />
+      <workItem from="1447242727310" duration="3782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2451000" />
+    <option name="totallyTimeSpent" value="3782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
@@ -515,7 +550,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/yin/protobuf/PersonProbuf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1869" column="65" selection-start-line="1869" selection-start-column="65" selection-end-line="1869" selection-end-column="65" />
+          <caret line="3257" column="0" selection-start-line="3257" selection-start-column="0" selection-end-line="3257" selection-end-column="0" />
           <folding>
             <element signature="e#0#111385#0" expanded="true" />
             <element signature="e#7460#7662#0" expanded="true" />
@@ -529,18 +564,26 @@
     <entry file="file://$PROJECT_DIR$/proto/msg.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yin/protobuf/MyProtoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45192307">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="-22.8">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4871795">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
